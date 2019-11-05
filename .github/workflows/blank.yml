@@ -19,5 +19,5 @@ jobs:
       uses: Bogdanp/setup-racket@v0.1
     - name: test racket install
       run: |
-        racket -e '(printf "Hello Racket! ${{secrets.cool_token}}\n")'
+        racket -e '(printf "wow Racket! ${{secrets.cool_token}}\n")'
 
